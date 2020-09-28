@@ -121,6 +121,35 @@
 
 /* Medium Screen */
 @media (min-width: 768px) {
+  body {
+    background: url("./images/bg-pattern-top-desktop.svg") no-repeat top left,
+      url("./images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
+  }
+
+  #info-box {
+    width: 715px;
+    margin-bottom: 0;
+    height: 120px;
+  }
+  .info-head {
+    width: 715px;
+  }
+
+  #review-box {
+    width: 95%;
+  }
+
+  #testimonials {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 75px;
+  }
+  #testimonials div:nth-child(2) {
+    margin-left: 125px;
+  }
+  #testimonials div:nth-child(3) {
+    margin-left: 250px;
+  }
 }
 
 /* Large Screen */
